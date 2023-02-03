@@ -3,7 +3,7 @@ const { Footer } = Layout;
 export default function FooterComponent () {
     return <Footer
     style={{
-      textAlign: 'center',
+        textAlign: 'center',
     }}
   >
     Ant Design ©2023 Created by Ant UED

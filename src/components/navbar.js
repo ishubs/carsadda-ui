@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{background:"white",color:"blue",backdropFilter:"blur(8px)"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <TimeToLeaveIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -114,12 +114,12 @@ function ResponsiveAppBar() {
             LOGO
           </Typography>
           </Link>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end', ml:2 }}>
+          <Box sx={{ flexGrow: 1,display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end', ml:2 }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block', mx:2 }}
+                sx={{ my: 2, color: 'black', display: 'block', mx:2 }}
               >
                 {page}
               </Button>
