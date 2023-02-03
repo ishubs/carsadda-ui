@@ -24,7 +24,7 @@ export default function Booking() {
                         justifyContent="center" xs={12}>
                         <DateTimePicker
                             renderInput={(props) => <TextField {...props} />}
-                            label="Pickup"
+                            label="From"
                             value={value}
 
                             onChange={(newValue) => {
@@ -33,9 +33,8 @@ export default function Booking() {
                         />
                         <DateTimePicker
                             renderInput={(props) => <TextField {...props} />}
-                            label="Pickup"
+                            label="To"
                             value={value}
-
                             onChange={(newValue) => {
                                 setValue(newValue);
                             }}
