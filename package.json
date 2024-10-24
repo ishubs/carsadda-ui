@@ -18,10 +18,10 @@
     "@next/font": "13.1.6",
     "antd": "^5.1.7",
     "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
+    "eslint-config-next": "15.0.0",
     "firebase": "9.6.0",
     "moment": "^2.29.4",
-    "next": "13.1.6",
+    "next": "14.2.7",
     "react": "^18.2.0",
     "react-dom": "18.2.0"
   }
